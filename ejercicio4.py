@@ -33,4 +33,22 @@ while True:
     if opcion == 1:
         #Agregar producto
         codigo = input("ingrese el codigo el producto: ")
+        nombre = input("ingrese el nombre del producto: ")
+
+        #validar el stock
+        while True:
+            stock = input("Ingrese el stock inicial: ")
+            if stock.isdigit():
+                stock = int(stock)
+                break
+            else:
+                print("Stock debe ser un numero entero.")
         
+        # validar el precio
+
+        while True:
+            precio = input("Ingrese el precio: ")
+            try:
+                precio = float(precio)
+                break
+            
