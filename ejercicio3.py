@@ -48,5 +48,3 @@ print(f"La produccion del primer dia ordenada: {dia_1}")
 
 
 
-
-print(produccion)
